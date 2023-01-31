@@ -1,0 +1,43 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 50px;
+    font-family: "arial";
+}
+#produto1,#produto2{
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 5px 5px 10px #ccc;
+            box-shadow: 5px 5px 10px #ccc;
+    -webkit-transition: ease 0,5s;
+    -o-transition: ease 0,5s;
+    transition: ease 0,5s; 
+}
+#produto1:hover,#produto2:hover{
+background-color: #ff5;
+}
+h2{
+    font-family: "arial";
+}
+p{
+    font-family: "arial";
+    font-weight: bold;
+}
+.p{
+    color: #f00;
+    font-size: 15pt;
+}
