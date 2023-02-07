@@ -1,4 +1,4 @@
-const produtos = [
+const listaProdutos = [
   {
     "id": 1,
     "title": "iPhone 9",

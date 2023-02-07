@@ -24,7 +24,7 @@ function paginaFilmes(){
     imgFilme.setAttribute('src',`${caminho}${listaFilmes[pos].poster_path}`);
     imgFilme.setAttribute('class','imgFilme');
     h2Titulo.innerHTML = listaFilmes[pos].title;
-    pLancamento.setAttribute('class', 'plancamento');
+    pLancamento.setAttribute('class', 'pLancamento');
     pLancamento.innerHTML = listaFilmes[pos].release_date;
     
     divFilme.appendChild(imgFilme);
