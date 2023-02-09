@@ -1,12 +1,17 @@
+// Add um link de arquivo CSS no index.HTML.
 window.document.head.innerHTML = `<link rel="stylesheet" href="css/styles02.css" />`;
 
+// Criar divCard para exibir as imagens dos produtos ao clicar na foto em miniatura do prod.
 const divCard = document.createElement('div');
+// Definir um atributo class para a divCard com nome divCard
 divCard.setAttribute('class', "divCard");
 
+// Criar uma imagem para que ao clicar nas fotos dos produtos sejm mostrada a foto selecionada
 const imgCard = document.createElement('img');
 imgCard.setAttribute('id', 'imgCard');
 divCard.appendChild(imgCard);
 
+// Foi criado um elemento de HTML para a tag de link(a) para fechar a divCard. Quando o usuario clicar no botão fechar será chamada uma função que recolhe a divCard.
 const fechar = document.createElement('a');
 fechar.innerHTML = "[X] Fechar";
 fechar.setAttribute('class',"fechar");
@@ -26,7 +31,7 @@ function carregarProdutos(){
     
     const header = document.createElement('header');
     const h1 = document.createElement('h1');
-    h1.innerHTML = 'Lista de Produtos';
+    h1.innerHTML = 'Feira do Rolo';
     header.appendChild(h1);
     
     const main = document.createElement('main');
