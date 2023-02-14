@@ -33,6 +33,6 @@ window.document.body.onload = function(){
     // inputNome.value = anoBissexto(ano);
 
     // console.log(Math.round(1 + Math.random()*254));
-    window.document.body.innerHTML = paletaCores(10,20);
+    window.document.body.innerHTML = paletaCores(35,130);
 };
 
